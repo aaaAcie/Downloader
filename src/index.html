@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>视频下载 by 徐亦快 --- 感谢 you-get </title>
+    <script src="./renderer/renderer.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- <form > -->
+        <label>网址：</label>
+        <input type="text" id="url" placeholder="请输入下载的网址">
+        <!-- 文件选择 -->
+        <div>
+          <label>另存为：</label>
+          <button id="bt">选择文件目录</button>
+          <p id="path">请在上方按钮处选择文件目录</p>
+        </div>
+    
+        <label>重命名为：</label>
+        <input type="text" id="file-name"placeholder="你想叫它什么？">
+      
+        <button id="submit">开始下载</button>
+        <div id="final" class="final"></div>
+        <p id="progress" class="final"></p>
+        
+        <div id="success"></div>
+      <!-- </form> -->
+    </div>
+  </body>
+</html>
