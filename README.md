@@ -8,7 +8,7 @@
 
 放一张截图
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74621e60-7df8-4992-86cf-80bad2470809/Untitled.png)
+![版本v1](./img/v1.png)
 
 未来的版本：
 
