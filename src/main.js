@@ -6,6 +6,8 @@ function createWindow () {
   const win = new BrowserWindow({
     width: 550,
     height: 620,
+    icon: "img/downloader.ico",
+    title: "视频下载 by 徐亦快",
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
