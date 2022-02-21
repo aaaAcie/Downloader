@@ -4,8 +4,8 @@ const path = require('path/posix')
 // 添加一个 createWindow() 方法来将 index.html 加载进一个新的 BrowserWindow 实例
 function createWindow () {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 550,
+    height: 620,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
